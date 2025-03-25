@@ -3,6 +3,12 @@ from pandas import read_csv
 from scipy.cluster.hierarchy import linkage, dendrogram, maxdists
 from matplotlib import pyplot as plt
 
+st.set_page_config(
+    "Cluster Analysis",
+    "🔬",
+    "wide",
+    "expanded"
+)
 
 st.header("Cluster Analyse")
 
